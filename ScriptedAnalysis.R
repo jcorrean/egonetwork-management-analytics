@@ -9,6 +9,18 @@ variable.names(M)
 # the following website: 
 # https://www.bibliometrix.org/vignettes/Introduction_to_bibliometrix.html
 
+# Our analysis begin with the bibliographic mapping 
+# of keywords co-occurrences for the large network
+# (i.e., all 381 documents' abstracts)
+
+library(bibliometrix)
+NetMatrix <- biblioNetwork(M, analysis = "co-occurrences", network = "keywords", sep = ";")
+netstat <- networkStat(NetMatrix)
+netstat$graph
+summary(netstat)
+net=networkPlot(NetMatrix, normalize="association", weighted=T, n = 30, Title = "Keyword Co-occurrences", type = "fruchterman", size=T,edgesize = 5,labelsize=0.7)
+Large <- as.data.frame(netstat$network)
+
 
 # To fulfill the goal of examining how visible is the 
 # the connection between the term "management" and the 
@@ -16,7 +28,6 @@ variable.names(M)
 # the abstract of each document retrieved with the 
 # criterion explained in the method section of our manuscript.
 # The abstract of each paper is available in the column "AB". 
-
 
 # To do so, we need to set all
 # abstracts as a standard corpus. For such a purpose
@@ -42,14 +53,12 @@ EgoCentricPapers <- M %>% slice(100, 102, 103, 105, 115, 120, 128,
                                 53, 6, 69, 7, 70, 72, 73, 75, 76,
                                 78, 80, 85, 86, 9, 95, 96)
 
-rm(list=setdiff(ls(), "EgoCentricPapers"))
-library(bibliometrix)
-#biblioshiny()
-M <- EgoCentricPapers
-rm(list=setdiff(ls(), "M"))
-NetMatrix <- biblioNetwork(M, analysis = "co-occurrences", network = "keywords", sep = ";")
+NetMatrix <- biblioNetwork(EgoCentricPapers, analysis = "co-occurrences", network = "keywords", sep = ";")
 netstat <- networkStat(NetMatrix)
-summary(netstat, k=10)
+summary(netstat)
 
 # Plot the network
 net=networkPlot(NetMatrix, normalize="association", weighted=T, n = 30, Title = "Keyword Co-occurrences", type = "fruchterman", size=T,edgesize = 5,labelsize=0.7)
+Ego <- as.data.frame(netstat$network)
+
+plot(netstat$graph, , vertex.label.cex=0.5, layout = layout_with_kk)
