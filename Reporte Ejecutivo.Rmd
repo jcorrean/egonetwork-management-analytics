@@ -21,3 +21,10 @@ ggplot(data, aes(x=Total_Conversion, color=gender)) +
   geom_histogram(fill="white") + theme_bw()
 ```
 
+Ahora voy a meter otro gráfico.
+
+```{r}
+ggplot(data, aes(x=interest, color=gender)) +
+  geom_density(fill="white") + theme_bw()
+```
+
