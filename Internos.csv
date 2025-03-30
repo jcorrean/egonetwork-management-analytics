@@ -1,50 +1,50 @@
-From ,To
-A Moncada,JC Correa
-A Moncada,Ximena Angel
-A Moncada,Gopal Sakarkar
-A Moncada,Orestes Manzanilla
-A Moncada,Catalina Gomez
-A Moncada,Wolfran Parrado
-A Moncada,Sergio Espinosa
-A Moncada,Esteban Abello
-A Moncada,Juan P Marin
-A Moncada,Fernando Forero
-A Moncada,Miguel Suarez
-JC Correa,Ximena Angel
-JC Correa,Gopal Sakarkar
-JC Correa,Orestes Manzanilla
-JC Correa,Catalina Gomez
-JC Correa,Wolfran Parrado
-JC Correa,Sergio Espinosa
-JC Correa,Esteban Abello
-JC Correa,Juan P Marin
-JC Correa,Fernando Forero
-JC Correa,Miguel Suarez
-JC Correa,JM Restrepo
-JC Correa,Klaus Jaffe
-JC Correa,P Biecek
-JC Correa,Andrea De Mauro
-JC Correa,Guido Fioretti
-JC Correa,Maria Fernanda Quiñones
-JC Correa,Daniel Piza
-JC Correa,Enrique Mercado
-JC Correa,Cesar Sepúlveda
-JC Correa,Carlos Castro
-JC Correa,Mauricio Mobarak
-JC Correa,Nikola Frollová
-JC Correa,Stephen Roper
-JC Correa,Paula Cunha
-JC Correa,Fernando Marmolejo
-JC Correa,Leonor Petit
-JC Correa,Monica Panes
-JC Correa,Lina Guzman
-JC Correa,Wilmer Garzon
-N Gomez,Ximena Angel
-N Gomez,Gopal Sakarkar
-N Gomez,Orestes Manzanilla
-N Gomez,Catalina Gomez
-N Gomez,Wolfran Parrado
-N Gomez,Sergio Espinosa
-N Gomez,Esteban Abello
-N Gomez,Fernando Forero
-N Gomez,Miguel Suarez
+From ,To,Dinero
+A Moncada,JC Correa,719
+A Moncada,Ximena Angel,259
+A Moncada,Gopal Sakarkar,238
+A Moncada,Orestes Manzanilla,430
+A Moncada,Catalina Gomez,321
+A Moncada,Wolfran Parrado,597
+A Moncada,Sergio Espinosa,735
+A Moncada,Esteban Abello,876
+A Moncada,Juan P Marin,412
+A Moncada,Fernando Forero,845
+A Moncada,Miguel Suarez,439
+JC Correa,Ximena Angel,202
+JC Correa,Gopal Sakarkar,252
+JC Correa,Orestes Manzanilla,928
+JC Correa,Catalina Gomez,719
+JC Correa,Wolfran Parrado,468
+JC Correa,Sergio Espinosa,144
+JC Correa,Esteban Abello,448
+JC Correa,Juan P Marin,163
+JC Correa,Fernando Forero,670
+JC Correa,Miguel Suarez,680
+JC Correa,JM Restrepo,487
+JC Correa,Klaus Jaffe,644
+JC Correa,P Biecek,323
+JC Correa,Andrea De Mauro,443
+JC Correa,Guido Fioretti,397
+JC Correa,Maria Fernanda Quiñones,143
+JC Correa,Daniel Piza,151
+JC Correa,Enrique Mercado,982
+JC Correa,Cesar Sepúlveda,594
+JC Correa,Carlos Castro,582
+JC Correa,Mauricio Mobarak,529
+JC Correa,Nikola Frollová,719
+JC Correa,Stephen Roper,280
+JC Correa,Paula Cunha,365
+JC Correa,Fernando Marmolejo,564
+JC Correa,Leonor Petit,571
+JC Correa,Monica Panes,367
+JC Correa,Lina Guzman,453
+JC Correa,Wilmer Garzon,785
+N Gomez,Ximena Angel,363
+N Gomez,Gopal Sakarkar,439
+N Gomez,Orestes Manzanilla,880
+N Gomez,Catalina Gomez,222
+N Gomez,Wolfran Parrado,582
+N Gomez,Sergio Espinosa,736
+N Gomez,Esteban Abello,360
+N Gomez,Fernando Forero,381
+N Gomez,Miguel Suarez,284
