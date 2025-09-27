@@ -5,10 +5,10 @@ int <- as.matrix(Internos)
 #net1 <- graph_from_edgelist(int, directed = FALSE)
 net1 <- graph_from_data_frame(Internos, directed = FALSE)
 
-plot(net1,
+plot(int,
      displaylabels = TRUE,
      edge.width = E(net1)$width, # Usar los pesos para el grosor de las aristas
-     vertex.label.cex = 0.6,
+     vertex.label.cex = 0.1,
      vertex.shape = "circle",
      vertex.color = "white",
      vertex.frame.color = "gray",
@@ -16,7 +16,7 @@ plot(net1,
      layout = layout_as_star)
 
 
-E(net1)$width <- E(net1)$Dinero/180
+
 
 # Identificar el primer nodo de la columna "From"
 primer_nodo <- Internos$From[1]
