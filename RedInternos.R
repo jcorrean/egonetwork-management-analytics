@@ -1,5 +1,7 @@
 library(readr)
 Internos <- read_csv("Internos.csv")
+Eduardo <- read_delim("Eduardo.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
 Internos <- Eduardo
 library(igraph)
 int <- as.matrix(Internos)
