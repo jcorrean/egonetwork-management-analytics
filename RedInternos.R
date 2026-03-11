@@ -1,5 +1,6 @@
 library(readr)
-Internos <- read_csv("/home/jcc/Documents/GitHub/egonetwork-management-analytics/Internos.csv")
+Internos <- read_csv("Internos.csv")
+Internos <- Eduardo
 library(igraph)
 int <- as.matrix(Internos)
 #net1 <- graph_from_edgelist(int, directed = FALSE)

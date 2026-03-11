@@ -1,0 +1,3 @@
+library(readr)
+library(readr)
+Internos <- read_csv("/home/jcc/Documents/GitHub/egonetwork-management-analytics/Internos.csv")
